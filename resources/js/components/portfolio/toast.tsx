@@ -14,7 +14,7 @@ export default function Toast({
     return (
         <div
             onClick={onClose}
-            className="fixed right-6 bottom-6 z-50 flex animate-in cursor-pointer items-center gap-3 rounded-lg border bg-card px-5 py-4 shadow-lg slide-in-from-bottom-5"
+            className="fixed top-20 right-6 z-50 flex animate-in cursor-pointer items-center gap-3 rounded-lg border bg-card px-5 py-4 shadow-lg slide-in-from-top-5"
         >
             {type === 'success' ? (
                 <CheckCircle className="text-green-500" size={22} />

@@ -1,4 +1,4 @@
-import { Mail, MapPin, Send } from 'lucide-react';
+import { Mail, MapPin, Phone, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -70,6 +70,22 @@ export default function Contact() {
                                     <p className="font-medium">
                                         Adenta, Greater Accra
                                     </p>
+                                </div>
+                            </div>
+                            <div className="flex items-center gap-4">
+                                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                                    <Phone className="text-primary" size={22} />
+                                </div>
+                                <div>
+                                    <p className="text-sm text-muted-foreground">
+                                        Phone
+                                    </p>
+                                    <a
+                                        href="tel:+233208649694"
+                                        className="font-medium transition-colors hover:text-primary"
+                                    >
+                                        +233 20 864 9694
+                                    </a>
                                 </div>
                             </div>
                         </div>
