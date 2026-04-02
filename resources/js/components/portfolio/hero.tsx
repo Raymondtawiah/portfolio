@@ -15,7 +15,7 @@ export default function Hero() {
                     <h1 className="mb-6 text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
                         Hi, I'm{' '}
                         <span className="text-primary">
-                            Raymond Kwame Tawiah
+                            Raymond K. Tawiah
                         </span>
                     </h1>
 
