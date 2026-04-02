@@ -77,7 +77,7 @@ export default function Projects() {
                                         >
                                             <Github size={18} />
                                         </a> */}
-                                        <a
+                                        {/* <a
                                             href={project.live}
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -85,7 +85,7 @@ export default function Projects() {
                                             aria-label={`${project.title} live demo`}
                                         >
                                             <ExternalLink size={18} />
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </CardTitle>
                                 <CardDescription>
