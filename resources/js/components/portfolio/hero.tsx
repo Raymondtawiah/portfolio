@@ -7,10 +7,10 @@ export default function Hero() {
             <div className="mx-auto flex max-w-6xl flex-col-reverse items-center justify-between gap-10 lg:flex-row lg:gap-16">
                 {/* Text Content */}
                 <div className="text-center lg:max-w-xl lg:text-left">
-                    <div className="mb-6 inline-flex items-center rounded-full border bg-muted/50 px-4 py-1.5 text-sm text-muted-foreground">
+                    {/* <div className="mb-6 inline-flex items-center rounded-full border bg-muted/50 px-4 py-1.5 text-sm text-muted-foreground">
                         <span className="mr-2 h-2 w-2 rounded-full bg-green-500" />
                         Available for work
-                    </div>
+                    </div> */}
 
                     <h1 className="mb-6 text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
                         Hi, I'm{' '}
