@@ -1,0 +1,17 @@
+{
+    "name": "Raymond K. Tawiah - Portfolio",
+    "short_name": "Portfolio",
+    "description": "Software Engineer portfolio showcasing projects, skills, and experience.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#18181b",
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}
